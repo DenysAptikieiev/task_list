@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>Список дел</h1>
+            <form action="data.json" name="add-task">
+                <input 
+                type="text" 
+                name="todoElement" 
+                id="todoElem" 
+                required 
+                placeholder="Добавьте новую задачу"
+                >
+                <button id="addTask"><img src="assets/images/add-button.svg" alt="add"></button>
+            </form>
+        </header>
+        <main>
+            <div class="task-list">
+                <div class="onorder">
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

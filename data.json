@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Помыть кота", 
+        "priority": "Low",
+        "status": "false",
+        "trash": "false"
+    },
+    {
+        "id": 2,
+        "name": "Помыть тачку",
+        "priority": "minor",
+        "status": "false",
+        "trash": "false"
+    }
+]

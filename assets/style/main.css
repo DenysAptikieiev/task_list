@@ -1,0 +1,128 @@
+.wrapper {
+  max-width: 1200px;
+  min-width: 360px;
+  margin: 0 auto;
+}
+.header {
+  background: rgba(74, 18, 18, 0.5);
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+.header form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header form input {
+  width: 300px;
+  min-width: 100px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+.header form input::-webkit-input-placeholder {
+  color: white;
+  text-align: center;
+}
+.header form input:-ms-input-placeholder {
+  color: white;
+  text-align: center;
+}
+.header form input::-ms-input-placeholder {
+  color: white;
+  text-align: center;
+}
+.header form input::placeholder {
+  color: white;
+  text-align: center;
+}
+.header form button {
+  cursor: pointer;
+  height: 55px;
+  background-color: transparent;
+  border: none;
+}
+.header form img {
+  width: 50px;
+}
+.task-list {
+  background: rgba(74, 18, 18, 0.8);
+  min-height: 200px;
+  border: 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.task-list .onorder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.task-list .onorder .edit {
+  background: url(../images/edit.svg) center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+.task-list .onorder .del {
+  background: url(../images/del.svg) center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+.task-list .onorder > div {
+  border-bottom: 1px solid white;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 10px 15px;
+}
+.task-list .onorder > div button {
+  margin-right: 5px;
+}
+.task-list .onorder > div span {
+  position: absolute;
+  left: 0px;
+}
